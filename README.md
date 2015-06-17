@@ -60,7 +60,6 @@ if letter = 'a'
   end
 ```
 
-
 ?: What would the following statement return?
 
 ```ruby
@@ -95,6 +94,7 @@ def vowels_with_case(letter)
 end
 
 ``` 
+
 Which keyword correctly replaces `< fill me in! > `?
 
 () `if` () `elsif` (X) `when` () `while`
@@ -123,5 +123,6 @@ def vowels_with_if_single_line(letter)
   true if letter == "a" || if letter == "e" || if letter == "i" || if letter == "o" || if letter == "u"
 end
 ```
+
 ???
 
