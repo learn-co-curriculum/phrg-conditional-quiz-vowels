@@ -21,7 +21,7 @@ end
 
 Which of the following is the correct implementation of if/elsif/else?
 
-() 
+(X) 
 
 ```ruby
 if letter == 'a'
@@ -70,9 +70,9 @@ else
    "not a vowel"
 end
 ```
-() vowel () not a vowel
+() vowel (X) not a vowel
 
-?: The method, `vowels_with_case`, that takes in a letter as an argument and uses a case statement to determine if that letter is a vowel. 
+?: The method `vowels_with_case` takes in a letter as an argument and uses a case statement to determine if that letter is a vowel. 
 
 ```ruby
 def vowels_with_case(letter)
@@ -95,10 +95,10 @@ end
 ``` 
 Which keyword correctly replaces `< fill me in! > `?
 
-() `if` () `elsif` () `when` () `while`
+() `if` () `elsif` (X) `when` () `while`
 
 ?: Which of the following methods would correctly return `true` when given the letter "o" as an argument?
-() 
+(X) 
 
 ```ruby
 def vowels_with_if_single_line(letter)
