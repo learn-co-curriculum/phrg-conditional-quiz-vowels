@@ -26,18 +26,18 @@ Which of the following is the correct implementation of if/elsif/else?
 (X) 
 ```ruby
 if letter == 'a'
-    true
-  elsif letter == 'e'
-    true
-  elsif letter == 'i'
-    true
-  elsif letter == 'o'
-    true
-  elsif letter == 'u'
-    true
-  else
-    false
-  end
+  true
+elsif letter == 'e'
+  true
+elsif letter == 'i'
+  true
+elsif letter == 'o'
+  true
+elsif letter == 'u'
+  true
+else
+  false
+end
 
 ```
 
@@ -45,16 +45,16 @@ if letter == 'a'
 ```ruby
 if letter = 'a'
     true
-  elsif letter = 'e'
-    true
-  elsif letter = 'i'
-    true
-  elsif letter = 'o'
-    true
-  elsif letter = 'u'
-    true
-  else
-    false
+elsif letter = 'e'
+  true
+elsif letter = 'i'
+  true
+elsif letter = 'o'
+  true
+elsif letter = 'u'
+  true
+else
+  false
   end
 ```
 
