@@ -11,9 +11,9 @@ You will answer a series of multiple choice questions to help you practice the f
 
 # Conditional Vowels
 
-The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `'a'`, `'e'`, `'i'`, `'o'`, and `'u'` (sorry, but you're not in the club, `'y'`). 
+The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `"a"`, `"e"`, `"i"`, `"o"`, and `"u"` (sorry, but you"re not in the club, `"y"`). 
 
-?: We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant. 
+?: We"re building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant. 
 
 ```ruby
 def vowels_with_if_elsif(letter)
@@ -25,15 +25,15 @@ Which of the following is the correct implementation of `if`, `elsif`, and `else
 
 (X) 
 ```ruby
-if letter == 'a'
+if letter == "a"
   true
-elsif letter == 'e'
+elsif letter == "e"
   true
-elsif letter == 'i'
+elsif letter == "i"
   true
-elsif letter == 'o'
+elsif letter == "o"
   true
-elsif letter == 'u'
+elsif letter == "u"
   true
 else
   false
@@ -43,15 +43,15 @@ end
 
 ( ) 
 ```ruby
-if letter = 'a'
+if letter = "a"
     true
-elsif letter = 'e'
+elsif letter = "e"
   true
-elsif letter = 'i'
+elsif letter = "i"
   true
-elsif letter = 'o'
+elsif letter = "o"
   true
-elsif letter = 'u'
+elsif letter = "u"
   true
 else
   false
@@ -61,9 +61,9 @@ end
 ?: What would the following statement return?
 
 ```ruby
-letter = 'b'
+letter = "b"
 
-if letter == 'a' || 'e' || 'i' || 'o' || 'u'
+if letter == "a" || "e" || "i" || "o" || "u"
 	"vowel"
 else
    "not a vowel"
@@ -76,15 +76,15 @@ end
 ```ruby
 def vowels_with_case(letter)
   case letter
-  < fill me in > 'a'
+  < fill me in > "a"
     true
-  < fill me in > 'e'
+  < fill me in > "e"
     true
-  < fill me in > 'i'
+  < fill me in > "i"
     true
-  < fill me in > 'o'
+  < fill me in > "o"
     true
-  < fill me in > 'u'
+  < fill me in > "u"
     true
   else
     false
@@ -97,26 +97,26 @@ Which keyword correctly replaces `< fill me in! > `?
 
 ( )`if` ( )`elsif` (X)`when` ( )`while`
 
-?: Which of the following methods would correctly return `true` when given the letter `'o'` as an argument?
+?: Which of the following methods would correctly return `true` when given the letter `"o"` as an argument?
 
 (X) 
 ```ruby
 def vowels_with_if_single_line(letter)
-  true if letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'
+  true if letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"
 end
 ```
 
 ( ) 
 ```ruby
 def vowels_with_if_single_line(letter)
-  true if letter == 'a' && letter == 'e' && letter == 'i' && letter == 'o' && letter == 'u'
+  true if letter == "a" && letter == "e" && letter == "i" && letter == "o" && letter == "u"
 end
 ```
 
 ( ) 
 ```ruby
 def vowels_with_if_single_line(letter)
-  true if letter == 'a' || if letter == 'e' || if letter == 'i' || if letter == 'o' || if letter == 'u'
+  true if letter == "a" || if letter == "e" || if letter == "i" || if letter == "o" || if letter == "u"
 end
 ```
 
