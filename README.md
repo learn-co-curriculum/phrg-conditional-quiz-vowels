@@ -11,9 +11,9 @@ You will answer a series of multiple choice questions to help you practice the f
 
 # Conditional Vowels
 
-The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `"a"`, `"e"`, `"i"`, `"o"`, and `"u"` (sorry, but you"re not in the club, `"y"`). 
+The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `"a"`, `"e"`, `"i"`, `"o"`, and `"u"` (sorry, but you're not in the club, `"y"`). 
 
-?: We"re building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant. 
+?: We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant. 
 
 ```ruby
 def vowels_with_if_elsif(letter)
@@ -120,6 +120,4 @@ def vowels_with_if_single_line(letter)
 end
 ```
 
-
 ???
-
