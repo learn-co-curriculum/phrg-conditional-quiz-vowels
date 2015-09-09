@@ -3,7 +3,7 @@
 ## Objectives
 You will answer a series of multiple choice questions to help you practice the following:
 
-1. Flow control and the use of `if`, `eslif`, and `else` statements.
+1. Flow control and the use of `if`, `elsif`, and `else` statements.
 3. Flow control and the use of `case` statements.
 4. Using comparative operators.
 
