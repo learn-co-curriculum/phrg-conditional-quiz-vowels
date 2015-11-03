@@ -1,23 +1,26 @@
 # Quiz: Practicing Conditionals with Vowels
 
 ## Objectives
+
 You will answer a series of multiple choice questions to help you practice the following:
 
 1. Flow control and the use of `if`, `elsif`, and `else` statements.
 2. Flow control and the use of `case` statements.
 3. Using comparative operators.
 
+The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `"a"`, `"e"`, `"i"`, `"o"`, and `"u"` (sorry, but you're not in the club, `"y"`).
+
 ???
 
 # Conditional Vowels
 
-The questions in this quiz are predicated on the idea of building methods that can determine if a letter is a vowel or a consonant. For the purposes of this quiz, vowels will be `"a"`, `"e"`, `"i"`, `"o"`, and `"u"` (sorry, but you're not in the club, `"y"`).
+?: Checking for vowels with `if`, `elsif`, and `else`
 
-?: We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant.
+We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant.
 
 ```ruby
 def vowels_with_if_elsif(letter)
-< fill me in!! >
+  < fill me in!! >
 end
 ```
 
@@ -67,9 +70,12 @@ else
   "not a vowel"
 end
 ```
+
 ( )vowel (X)not a vowel
 
-?: The method `vowels_with_case` takes in a letter as an argument and uses a `case` statement to determine if that letter is a vowel.
+?: Checking for vowels with `case`
+
+The method `vowels_with_case` takes in a letter as an argument and uses a `case` statement to determine if that letter is a vowel.
 
 ```ruby
 def vowels_with_case(letter)
