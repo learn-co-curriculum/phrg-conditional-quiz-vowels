@@ -80,15 +80,15 @@ The method `vowels_with_case` takes in a letter as an argument and uses a `case`
 ```ruby
 def vowels_with_case(letter)
   case letter
-  < fill me in > "a"
+  < fill me in! > "a"
     true
-  < fill me in > "e"
+  < fill me in! > "e"
     true
-  < fill me in > "i"
+  < fill me in! > "i"
     true
-  < fill me in > "o"
+  < fill me in! > "o"
     true
-  < fill me in > "u"
+  < fill me in! > "u"
     true
   else
     false
